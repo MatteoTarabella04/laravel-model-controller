@@ -1,9 +1,5 @@
 @import '~bootstrap/scss/bootstrap';
-
-h1 {
-   text-align: center;
-   padding: 2rem 0;
-}
+@import './partials/homeCards';
 
 header {
    height: 250px;
@@ -11,10 +7,4 @@ header {
 
 footer {
    height: 300px;
-}
-
-
-.card-header {
-   color: white;
-   background-color: #02ca57;
 }
