@@ -2,9 +2,10 @@
 
 @section('content')
     <h1>Movie welcome</h1>
-    @foreach ($movies as $movie)
+
+    {{--  @foreach ($movies as $movie)
         <ul>
             <li>{{ $movie['title'] }}</li>
         </ul>
-    @endforeach
+    @endforeach --}}
 @endsection
