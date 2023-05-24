@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Movies</h1>
+    <h1 class="text-center py-4">Movies</h1>
 
     <div class="container pb-5">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-3">

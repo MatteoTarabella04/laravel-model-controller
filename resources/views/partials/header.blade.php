@@ -6,6 +6,6 @@
         <a class="nav-link {{ Route::currentRouteName() === 'about' ? 'bg-primary text-white' : '' }}"
             href="{{ route('about') }}">About Us</a>
         <a class="nav-link {{ Route::currentRouteName() === 'contacts' ? 'bg-primary text-white' : '' }}"
-            href="{{ route('contacts') }}">Contacts</a>
+            href="{{ route('contacts') }}">Contacts Us</a>
     </nav>
 </header>
