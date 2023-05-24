@@ -1,6 +1,6 @@
 <header class="bg-dark text-center py-4">
     <img src="{{ Vite::asset('resources/img/logo.png') }}" alt="" class="py-4">
-    <nav class="nav justify-content-center pt-4 pb-1 ">
+    <nav class="nav justify-content-center ">
         <a class="nav-link {{ Route::currentRouteName() === 'home' ? 'bg-primary text-white' : '' }}"
             href="{{ route('home') }}" aria-current="page">Home</a>
         <a class="nav-link {{ Route::currentRouteName() === 'about' ? 'bg-primary text-white' : '' }}"
